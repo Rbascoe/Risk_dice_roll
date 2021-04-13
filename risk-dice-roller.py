@@ -29,7 +29,7 @@ def battle_sim(attackers, stop_attack, defenders):
             defenders = defenders - 1  
         elif((attacker_rolls[1] < defender_rolls[1]) or (attacker_rolls[1] == defender_rolls[1])):
             attackers = attackers - 1
-            
+
         #lose dice 
         if(attackers > 2):
             attacker_rolls.pop()
